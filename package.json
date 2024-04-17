@@ -24,6 +24,9 @@
     "parcel": "^2.8.3"
   },
   "dependencies": {
-    "splitting": "^1.0.6"
+    "splitting": "^1.0.6",
+    "@studio-freight/lenis": "^0.2.8",
+    "gsap": "^3.11.2",
+    "imagesloaded": "^5.0.0"
   }
 }
