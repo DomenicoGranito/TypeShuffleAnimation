@@ -182,7 +182,7 @@ main {
 	pointer-events: none;
 }
 
-.content {
+.content2 {
 	display: grid;
 	gap: 1rem;
 	max-width: 830px;
@@ -246,7 +246,7 @@ dd {
 		grid-template-areas: 'title prev sponsor';
 		justify-content: start;
 	}
-	.content {
+	.content2 {
 		grid-template-columns: 15ch 1fr;
 	}
 }

@@ -4,7 +4,7 @@ import { TypeShuffle } from './typeShuffle';
 preloadFonts('biu0hfr').then(() => {
     document.body.classList.remove('loading');
 
-    const textElement = document.querySelector('.content');
+    const textElement = document.querySelector('.content2');
     
     const ts = new TypeShuffle(textElement);
     ts.trigger('fx1');
