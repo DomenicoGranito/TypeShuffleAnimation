@@ -185,6 +185,8 @@ a:focus-visible {
 	font-size: 1rem;
 	margin: 0;
 	font-weight: normal;
+	text-transform: uppercase;
+	writing-mode: vertical-lr;
 }
 
 .frame__title-back {
@@ -357,6 +359,7 @@ a:focus-visible {
 	left: 0;
 	align-content: center;
 	padding: 2rem;
+	filter: grayscale(1);
 }
 
 .grid-open .grid {
