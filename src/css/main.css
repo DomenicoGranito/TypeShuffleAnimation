@@ -85,6 +85,127 @@ body #cdawrap {
 
 }
 
+.App-topright {
+	pointer-events: none;
+	position: fixed;
+	top: 50px;
+	right: 50px;
+	width: auto; /* Adjust as needed */
+	height: 1px; /* Adjust as needed */
+	color: white;
+	z-index: 1;
+  }
+  
+  .App-middleleft {
+	pointer-events: none;
+	position: fixed;
+	font-weight: 800;
+	font-size: xx-large;
+	text-align: left;
+	float: left;
+	bottom: 50%;
+	left: 50px;
+	margin: 0px;
+	width: 25%; /* Adjust as needed */
+	height: 80px; /* Adjust as needed */
+	color: white;
+	z-index: 1;
+  }
+  
+  .App-bottomleft {
+	pointer-events: none;
+	position: fixed;
+	font-weight: 100;
+	font-size: xx-small;
+	text-align: left;
+	transform: rotate(270deg);
+	transform-origin: left top 200px; 
+	float: left;
+	bottom: 50px;
+	left: 50px;
+	margin: 0px;
+	width: 25%; /* Adjust as needed */
+	height: 50px; /* Adjust as needed */
+	color: white;
+	z-index: 1;
+  }
+  .App-bottomleftlogo {
+	pointer-events: none;
+	position: fixed;
+	font-weight: 800;
+	font-size: x-large;
+	bottom: 50px;
+	left: 50px;
+	width: auto; /* Adjust as needed */
+	height: 10px; /* Adjust as needed */
+	color: white;
+	z-index: 1;
+  }
+  
+  .App-bottomrightlogo {
+	pointer-events: none;
+	position: fixed;
+	font-weight: 800;
+	font-size: x-large;
+	bottom: 50px;
+	right: 50px;
+	width: auto; /* Adjust as needed */
+	height: 10px; /* Adjust as needed */
+	color: white;
+	z-index: 1;
+  }
+  
+.class-name1 {
+	pointer-events: none;
+	position: fixed;
+	top: 50px;
+	left: 50px;
+	width: 20px; /* Adjust as needed */
+	height: 5px; /* Adjust as needed */
+	color: white;
+	background-color: white;
+	z-index: 1;
+  }
+  .class-name2 {
+	pointer-events: none;
+	position: fixed;
+	top: 56px;
+	left: 50px;
+	width: 20px; /* Adjust as needed */
+	height: 1px; /* Adjust as needed */
+	color: white;
+	background-color: white;
+	z-index: 1;
+  }
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+	 /*  animation: App-logo-spin infinite 20s linear; */
+	  animation: App-logo-spin 3s infinite alternate;
+	}
+	.class-name1{
+	  animation: App-logo-spin1 3s infinite alternate;
+	}
+	.class-name2{
+	  animation: App-logo-spin1 3s infinite alternate;
+	}
+}
+@keyframes App-logo-spin {
+	from {
+	  transform: translateY(0);
+	}
+	to {
+	  transform: translateY(100px);
+	}
+  }
+  
+  @keyframes App-logo-spin1 {
+	from {
+	  transform: translateY(10);
+	}
+	to {
+	  transform: translateY(110px);
+	}
+  }
 @keyframes loaderAnim {
 	to {
 		opacity: 1;
